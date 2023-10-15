@@ -5,9 +5,11 @@
 
 # ShiftSegmentBoard
 
-![Banner](Static/Banner.png)
+The segment test board is a small board comprising the
+[SN74HC595](https://www.lcsc.com/product-detail/Shifting-Register_Texas-Instruments-SN74HC595PWR_C273642.html) shift register,
+and the [SM420391N](https://www.lcsc.com/product-detail/Led-Segment-Display_ARKLED-Wuxi-ARK-Tech-Elec-SM420391N-8_C252199.html) led seven segment display.
 
-This repo contains all the firmware and hardware for the ShiftSegmentBoard.
+![image](https://user-images.githubusercontent.com/31870999/232265266-9321feb2-9801-4a30-80ed-2b1b511b5bc9.png)
 
 If you're looking for the latest docs/builds, see our [Releases Page](https://github.com/KenwoodFox/ShiftSegmentBoard/releases).
 
@@ -35,3 +37,8 @@ git submodule update --init --recursive
 ## Project Layout
 
 If you want to use this project template for yourself, you can find it [here!](https://github.com/KenwoodFox/Project-Template)
+
+
+# License
+
+License is BSD(2)

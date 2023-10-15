@@ -822,7 +822,7 @@
     (pin "1" (uuid 4dbb6b5a-2509-4d43-bac5-7e77da8c6c4f))
     (pin "2" (uuid d5ad0c45-e07f-40be-b0c3-bf2dc03d4b42))
     (instances
-      (project "SegmentTestBoard"
+      (project "ShiftSegmentBoard"
         (path "/47065905-0432-4c5e-981f-0b6a5113d245"
           (reference "R104") (unit 1)
         )
@@ -852,7 +852,7 @@
     )
     (pin "1" (uuid 55c9b42c-1f1b-45e6-afff-a0320ef4aefd))
     (instances
-      (project "SegmentTestBoard"
+      (project "ShiftSegmentBoard"
         (path "/47065905-0432-4c5e-981f-0b6a5113d245"
           (reference "#PWR0109") (unit 1)
         )
@@ -891,7 +891,7 @@
     (pin "8" (uuid a84441fa-f974-475e-bae8-7e0488d21180))
     (pin "9" (uuid cb0bace7-31e7-4e7c-8361-9adeb9d3d032))
     (instances
-      (project "SegmentTestBoard"
+      (project "ShiftSegmentBoard"
         (path "/47065905-0432-4c5e-981f-0b6a5113d245"
           (reference "U102") (unit 1)
         )
@@ -921,7 +921,7 @@
     )
     (pin "1" (uuid 3bcd427a-c44b-4c1b-840e-446113c5e2c7))
     (instances
-      (project "SegmentTestBoard"
+      (project "ShiftSegmentBoard"
         (path "/47065905-0432-4c5e-981f-0b6a5113d245"
           (reference "#PWR0105") (unit 1)
         )
@@ -952,7 +952,7 @@
     (pin "1" (uuid aa1bbbb4-73cc-4da8-8e21-b2f756c7803c))
     (pin "2" (uuid 514f6048-b16b-4d24-b921-95495371b383))
     (instances
-      (project "SegmentTestBoard"
+      (project "ShiftSegmentBoard"
         (path "/47065905-0432-4c5e-981f-0b6a5113d245"
           (reference "R102") (unit 1)
         )
@@ -997,7 +997,7 @@
     (pin "8" (uuid acdfff88-867d-45fc-afdf-7d74b7a91713))
     (pin "9" (uuid d00cf44b-7d47-4e39-9bff-7d597cbeb86a))
     (instances
-      (project "SegmentTestBoard"
+      (project "ShiftSegmentBoard"
         (path "/47065905-0432-4c5e-981f-0b6a5113d245"
           (reference "U101") (unit 1)
         )
@@ -1027,7 +1027,7 @@
     )
     (pin "1" (uuid 3147b2ce-c9fa-4b7d-86dd-b35216f3efa4))
     (instances
-      (project "SegmentTestBoard"
+      (project "ShiftSegmentBoard"
         (path "/47065905-0432-4c5e-981f-0b6a5113d245"
           (reference "#PWR0106") (unit 1)
         )
@@ -1058,7 +1058,7 @@
     (pin "1" (uuid 5b3b59ca-2af2-4950-902f-cc9fcdfda2d0))
     (pin "2" (uuid ab578d00-75ed-479b-99f5-ecfc1fbf9c1a))
     (instances
-      (project "SegmentTestBoard"
+      (project "ShiftSegmentBoard"
         (path "/47065905-0432-4c5e-981f-0b6a5113d245"
           (reference "R107") (unit 1)
         )
@@ -1092,7 +1092,7 @@
     (pin "4" (uuid 9d495497-6b8e-49a6-a20d-01013ae937ec))
     (pin "5" (uuid 102dfd3f-3f67-4eff-8c63-97c39c8107d1))
     (instances
-      (project "SegmentTestBoard"
+      (project "ShiftSegmentBoard"
         (path "/47065905-0432-4c5e-981f-0b6a5113d245"
           (reference "J101") (unit 1)
         )
@@ -1117,7 +1117,7 @@
     )
     (pin "1" (uuid a35354d8-93b7-4fc6-b4f3-88037e06faa8))
     (instances
-      (project "SegmentTestBoard"
+      (project "ShiftSegmentBoard"
         (path "/47065905-0432-4c5e-981f-0b6a5113d245"
           (reference "#PWR0107") (unit 1)
         )
@@ -1148,7 +1148,7 @@
     (pin "1" (uuid a99bd628-1d29-4277-a1ff-f631101e654e))
     (pin "2" (uuid ee7815fe-565d-42cb-beb9-38ef5dc354a8))
     (instances
-      (project "SegmentTestBoard"
+      (project "ShiftSegmentBoard"
         (path "/47065905-0432-4c5e-981f-0b6a5113d245"
           (reference "R108") (unit 1)
         )
@@ -1178,7 +1178,7 @@
     )
     (pin "1" (uuid f28814fd-4818-47d1-a2ab-69da7b4610e8))
     (instances
-      (project "SegmentTestBoard"
+      (project "ShiftSegmentBoard"
         (path "/47065905-0432-4c5e-981f-0b6a5113d245"
           (reference "#PWR0102") (unit 1)
         )
@@ -1209,7 +1209,7 @@
     (pin "1" (uuid a365dece-6eb4-47c7-8d80-4bf5d5e660b0))
     (pin "2" (uuid edadc22e-02b6-4cf5-80fd-1f5ecbe84251))
     (instances
-      (project "SegmentTestBoard"
+      (project "ShiftSegmentBoard"
         (path "/47065905-0432-4c5e-981f-0b6a5113d245"
           (reference "C101") (unit 1)
         )
@@ -1239,7 +1239,7 @@
     )
     (pin "1" (uuid 9c731bb8-3819-487d-9824-c5711138d4b2))
     (instances
-      (project "SegmentTestBoard"
+      (project "ShiftSegmentBoard"
         (path "/47065905-0432-4c5e-981f-0b6a5113d245"
           (reference "#PWR0101") (unit 1)
         )
@@ -1269,7 +1269,7 @@
     )
     (pin "1" (uuid 7de5d802-7833-4ef8-8a1a-8a18b899cc56))
     (instances
-      (project "SegmentTestBoard"
+      (project "ShiftSegmentBoard"
         (path "/47065905-0432-4c5e-981f-0b6a5113d245"
           (reference "#PWR0104") (unit 1)
         )
@@ -1300,7 +1300,7 @@
     (pin "1" (uuid cd63e22e-9267-4158-b4e2-621f42dbac07))
     (pin "2" (uuid 65a494dc-3a93-4466-b2ec-b43b7beed135))
     (instances
-      (project "SegmentTestBoard"
+      (project "ShiftSegmentBoard"
         (path "/47065905-0432-4c5e-981f-0b6a5113d245"
           (reference "R103") (unit 1)
         )
@@ -1330,7 +1330,7 @@
     )
     (pin "1" (uuid 0a361c34-6df1-4cb3-a407-a3fe6ed59849))
     (instances
-      (project "SegmentTestBoard"
+      (project "ShiftSegmentBoard"
         (path "/47065905-0432-4c5e-981f-0b6a5113d245"
           (reference "#PWR0111") (unit 1)
         )
@@ -1361,7 +1361,7 @@
     (pin "1" (uuid 4dec719e-71ed-4010-a81c-3aca64763ad9))
     (pin "2" (uuid 5967be8f-bb53-4977-9ef4-892e3d9f5fcb))
     (instances
-      (project "SegmentTestBoard"
+      (project "ShiftSegmentBoard"
         (path "/47065905-0432-4c5e-981f-0b6a5113d245"
           (reference "R105") (unit 1)
         )
@@ -1392,7 +1392,7 @@
     (pin "1" (uuid 2ac3f729-a220-4fb3-85bf-d657e1051a21))
     (pin "2" (uuid af4afa3c-d85c-45ce-922c-9eaf7d38cdb3))
     (instances
-      (project "SegmentTestBoard"
+      (project "ShiftSegmentBoard"
         (path "/47065905-0432-4c5e-981f-0b6a5113d245"
           (reference "R106") (unit 1)
         )
@@ -1426,7 +1426,7 @@
     (pin "4" (uuid b1a77bee-630c-4b68-a2ef-c969427bea2c))
     (pin "5" (uuid 8dbfaf43-7c98-4131-a4ca-c966d0dba912))
     (instances
-      (project "SegmentTestBoard"
+      (project "ShiftSegmentBoard"
         (path "/47065905-0432-4c5e-981f-0b6a5113d245"
           (reference "J102") (unit 1)
         )
@@ -1451,7 +1451,7 @@
     )
     (pin "1" (uuid 3c43befa-9161-4fdc-85ab-ed092551ff33))
     (instances
-      (project "SegmentTestBoard"
+      (project "ShiftSegmentBoard"
         (path "/47065905-0432-4c5e-981f-0b6a5113d245"
           (reference "#PWR0110") (unit 1)
         )
@@ -1481,7 +1481,7 @@
     )
     (pin "1" (uuid f3fa41c3-ecde-4701-b01c-9d841990240d))
     (instances
-      (project "SegmentTestBoard"
+      (project "ShiftSegmentBoard"
         (path "/47065905-0432-4c5e-981f-0b6a5113d245"
           (reference "#PWR0108") (unit 1)
         )
@@ -1511,7 +1511,7 @@
     )
     (pin "1" (uuid 5e96faeb-a813-4f30-923b-3d75d20ddca9))
     (instances
-      (project "SegmentTestBoard"
+      (project "ShiftSegmentBoard"
         (path "/47065905-0432-4c5e-981f-0b6a5113d245"
           (reference "#PWR0103") (unit 1)
         )
@@ -1542,7 +1542,7 @@
     (pin "1" (uuid c1bc1d86-c5d0-4ce4-8304-67fb773f65c5))
     (pin "2" (uuid 50fc2085-93a4-4225-8943-dc69ebc0f389))
     (instances
-      (project "SegmentTestBoard"
+      (project "ShiftSegmentBoard"
         (path "/47065905-0432-4c5e-981f-0b6a5113d245"
           (reference "R101") (unit 1)
         )

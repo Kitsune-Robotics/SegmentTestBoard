@@ -7,25 +7,26 @@
 // Libs
 #include <Arduino.h>
 
-// Headers
-#include "boardPins.h"
+// Display
+#include <shiftDisplay.h>
+
+// Objects
+shiftDisplay disp = shiftDisplay(7, 8);
 
 void setup()
 {
     // Setup serial
     delay(200);
-    Serial.begin(115200);
-    Serial.println(REVISION);
 
     // Pins
-    pinMode(STAT_LED, OUTPUT);
+    pinMode(LED_BUILTIN, OUTPUT);
 }
 
 void loop()
 {
     // Flash LED
-    digitalWrite(STAT_LED, HIGH);
+    digitalWrite(LED_BUILTIN, HIGH);
     delay(1000);
-    digitalWrite(STAT_LED, LOW);
+    digitalWrite(LED_BUILTIN, LOW);
     delay(1000);
 }

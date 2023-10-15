@@ -38,13 +38,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install --upgrade platformio
 
-      - name: Run PlatformIO
-        run: cd Firmware && make
-
-      - uses: actions/upload-artifact@v2
-        with:
-          name: Display_Binaries
-          path: Firmware/.pio/build/ATmega328P/firmware.*
+      - name: Test Library
+        run: cd Firmware/examples/count && pio run
 
   delint:
     runs-on: ubuntu-latest
@@ -72,5 +67,5 @@ jobs:
           pip install --upgrade platformio
 
       - name: Run Delinter
-        run: cd Firmware && pio check
+        run: cd Firmware/examples/count && pio check
 #

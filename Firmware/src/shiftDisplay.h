@@ -12,6 +12,7 @@ class shiftDisplay
 private:
     uint8_t datPin;
     uint8_t clkPin;
+    uint8_t latchPin;
 
     // Segments
     enum Seg
@@ -27,7 +28,7 @@ private:
     };
 
     // Segment Lookup table
-    const uint8_t segmentLookup[37] = {
+    const uint8_t segChars[37] = {
         s_A | s_B | s_C | s_D | s_E | s_F,       // 0
         s_B | s_C,                               // 1
         s_A | s_B | s_D | s_E | s_G,             // 2
@@ -68,7 +69,13 @@ private:
     };
 
 public:
-    shiftDisplay(uint8_t _datPin, uint8_t _clkPin);
+    shiftDisplay(uint8_t _datPin, uint8_t _clkPin, uint8_t _latchPin);
+
+    /**
+     * @brief Initalize pins and begin
+     *
+     */
+    void begin();
 
     /**
      * @brief Set the current digit

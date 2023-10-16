@@ -7,6 +7,8 @@
 // Libs
 #include <Arduino.h>
 
+#include "letters.h"
+
 class shiftDisplay
 {
 private:

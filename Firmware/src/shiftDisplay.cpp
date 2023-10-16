@@ -24,7 +24,6 @@ void shiftDisplay::setDigit(uint8_t digit)
     digitalWrite(latchPin, LOW); // Set latch low (stop displaying digits)
 
     shiftOut(datPin, clkPin, MSBFIRST, segChars[digit]); // Write segment out
-    // shiftOut(datPin, clkPin, MSBFIRST, 0xff);
 
     digitalWrite(latchPin, HIGH); // Display it
 };

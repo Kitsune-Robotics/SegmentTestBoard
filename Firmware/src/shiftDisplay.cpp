@@ -23,7 +23,13 @@ void shiftDisplay::setDigit(uint8_t digit)
 {
     digitalWrite(latchPin, LOW); // Set latch low (stop displaying digits)
 
-    shiftOut(datPin, clkPin, MSBFIRST, segChars[digit]); // Write segment out
+    // Write segment out (checking with showDecimal to draw the decimal dot)
+    shiftOut(datPin, clkPin, MSBFIRST, showDecimal ? segChars[digit] | s_DP : segChars[digit]);
 
     digitalWrite(latchPin, HIGH); // Display it
 };
+
+void shiftDisplay::setDecimal(bool dec)
+{
+    showDecimal = dec;
+}

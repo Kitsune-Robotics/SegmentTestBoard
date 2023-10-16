@@ -12,9 +12,13 @@
 class shiftDisplay
 {
 private:
+    // Pins
     uint8_t datPin;
     uint8_t clkPin;
     uint8_t latchPin;
+
+    // Settings
+    bool showDecimal = false;
 
     // Segments
     enum Seg
@@ -85,4 +89,11 @@ public:
      * @param digit A number or char corrsponding to the lookup chart.
      */
     void setDigit(uint8_t digit);
+
+    /**
+     * @brief Set the decimal light on or off
+     *
+     * @param dec True for on, False for off
+     */
+    void setDecimal(bool dec);
 };

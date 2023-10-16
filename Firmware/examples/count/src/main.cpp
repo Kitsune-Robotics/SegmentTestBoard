@@ -40,6 +40,7 @@ void loop()
     delay(100);
 
     disp.setDigit(i);
+    disp.setDecimal(i % 2 == 0);
     Serial.println(i);
     i++;
     if (i >= 37)

@@ -4,6 +4,7 @@
  */
 enum Letters
 {
+    l_BLANK = 10,
     l_A = 11,
     l_B = 12,
     l_C = 13,

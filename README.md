@@ -1,5 +1,5 @@
-[![Hardware](https://github.com/KenwoodFox/SegmentTestBoard/actions/workflows/hardware_workflow.yml/badge.svg)](https://github.com/KenwoodFox/SegmentTestBoard/actions/workflows/hardware_workflow.yml)
-[![Firmware](https://github.com/KenwoodFox/SegmentTestBoard/actions/workflows/firmware_workflow.yml/badge.svg)](https://github.com/KenwoodFox/SegmentTestBoard/actions/workflows/firmware_workflow.yml)
+[![Hardware](https://github.com/Kitsune-Robotics/SegmentTestBoard/actions/workflows/hardware_workflow.yml/badge.svg)](https://github.com/Kitsune-Robotics/SegmentTestBoard/actions/workflows/hardware_workflow.yml)
+[![Firmware](https://github.com/Kitsune-Robotics/SegmentTestBoard/actions/workflows/firmware_workflow.yml/badge.svg)](https://github.com/Kitsune-Robotics/SegmentTestBoard/actions/workflows/firmware_workflow.yml)
 
 
 # SegmentTestBoard

@@ -1,0 +1,22 @@
+{
+  "name": "shiftDisplay",
+  "version": "1.0.0",
+  "description": "A super simple library to interface specifically with my shift boards.",
+  "keywords": "kitsunescientific, shift segment",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kitsune-Robotics/SegmentTestBoard.git"
+  },
+  "authors": [
+    {
+      "name": "Joe",
+      "email": "kenwood364@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "license": "BSD",
+  "homepage": "https://www.helloworld.org/",
+  "dependencies": {},
+  "frameworks": "*",
+  "platforms": "*"
+}

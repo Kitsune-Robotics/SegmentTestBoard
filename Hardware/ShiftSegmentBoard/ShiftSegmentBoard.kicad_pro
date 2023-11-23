@@ -406,7 +406,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SegmentTestBoard.kicad_pro",
+    "filename": "ShiftSegmentBoard.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -445,7 +445,7 @@
       "step": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "Libraries/kenwoodfox-kicad-libraries/worksheets/BlankWorksheet.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -471,7 +471,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "Libraries/kenwoodfox-kicad-libraries/worksheets/KitsuneScientificWorksheet.kicad_wks",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",

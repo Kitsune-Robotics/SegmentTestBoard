@@ -11,18 +11,16 @@ _build
 
 # CAD Artifacts
 *.stl
-*.blend1
-OldVersions
 
 # Doc artifacts
 _*/
-~$*
 
 # Temporary files
 *.000
 *.bak
 *.bck
-*.kicad_*-bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
 *-backups
 *.kicad_prl
 *.sch-bak
@@ -33,6 +31,7 @@ _autosave-*
 *-save.kicad_pcb
 fp-info-cache
 *auto_saved_files#
+*.lck
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -50,16 +49,3 @@ fp-info-cache
 
 # dev artifacts
 .vscode
-
-# Docs
-*.gz
-*.aux
-*.log
-*.out
-*.snm
-*.toc
-*.nav
-*.dvi
-*.idx
-*.ilg
-*.ind

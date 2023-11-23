@@ -29,6 +29,16 @@ void shiftDisplay::setDigit(uint8_t digit)
     digitalWrite(latchPin, HIGH); // Display it
 };
 
+void shiftDisplay::setRaw(uint8_t raw)
+{
+    digitalWrite(latchPin, LOW); // Set latch low (stop displaying digits)
+
+    // Write segment out
+    shiftOut(datPin, clkPin, MSBFIRST, raw);
+
+    digitalWrite(latchPin, HIGH); // Display it
+}
+
 void shiftDisplay::setDecimal(bool dec)
 {
     showDecimal = dec;

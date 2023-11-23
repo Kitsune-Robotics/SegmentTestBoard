@@ -91,6 +91,13 @@ public:
     void setDigit(uint8_t digit);
 
     /**
+     * @brief Set a raw value
+     *
+     * @param raw A binary number like 0b00100000
+     */
+    void setRaw(uint8_t raw);
+
+    /**
      * @brief Set the decimal light on or off
      *
      * @param dec True for on, False for off
